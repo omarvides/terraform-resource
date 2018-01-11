@@ -10,7 +10,7 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
-variable "tag" {
+variable "tag_name" {
   type = "string"
   description = "A tag for the instance, could be empty"
   default = ""
