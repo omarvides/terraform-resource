@@ -16,7 +16,7 @@ variable "tag_name" {
   default = "Default"
 }
 
-variable "count" {
+variable "instance_count" {
   type = "string"
   description = "The number of aws instances that will be created"
   default = 1

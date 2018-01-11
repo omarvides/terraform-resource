@@ -6,7 +6,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "web" {
-  count = "${var.count}"
+  count = "${var.instance_count}"
   ami = "${var.ami}"
   instance_type = "${var.instance_type}"
   tags {
