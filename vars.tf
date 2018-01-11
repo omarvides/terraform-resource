@@ -21,3 +21,9 @@ variable "instance_count" {
   description = "The number of aws instances that will be created"
   default = 1
 }
+
+variable "count" {
+  type = "string"
+  description = "The number of aws instances that will be created"
+  default = 1
+}
