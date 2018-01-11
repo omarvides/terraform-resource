@@ -13,5 +13,5 @@
 
 | Name | Description |
 |------|-------------|
-| aws instance public ip | Aws instance public IP |
+| public_ip | Aws instance public IP |
 
