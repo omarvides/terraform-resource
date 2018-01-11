@@ -13,5 +13,11 @@ variable "instance_type" {
 variable "tag_name" {
   type = "string"
   description = "A tag for the instance, could be empty"
-  default = ""
+  default = "Default"
+}
+
+variable "count" {
+  type = "string"
+  description = "The number of aws instances that will be created"
+  default = 1
 }
