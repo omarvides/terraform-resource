@@ -13,4 +13,5 @@ variable "instance_type" {
 variable "tag" {
   type = "string"
   description = "A tag for the instance, could be empty"
+  default = ""
 }
