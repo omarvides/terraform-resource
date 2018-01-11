@@ -1,2 +1,2 @@
 documentation:
-	terraform-docs markdown . > README.md
+	./terraform-docs markdown . > README.md
