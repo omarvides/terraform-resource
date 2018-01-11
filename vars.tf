@@ -9,3 +9,9 @@ variable "instance_type" {
   description = "The instance type or size"
   default = "t2.micro"
 }
+
+variable "tag" {
+  type = "string"
+  description = "A tag for the instance, could be empty"
+  default = ""
+}
