@@ -1,19 +1,11 @@
-# AWS instance resource
+# Terraform resources
 
+This repository contains terraform resources to be used by modules
+every resources can self documented by running at the resource directory
 
-## Inputs
+```
+make documentation
+```
 
-| Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| ami | The ami to create the web server | string | `ami-40d28157` | no |
-| count | The number of aws instances that will be created | string | `1` | no |
-| instance_count | The number of aws instances that will be created | string | `1` | no |
-| instance_type | The instance type or size | string | `t2.micro` | no |
-| tag_name | A tag for the instance, could be empty | string | `Default` | no |
-
-## Outputs
-
-| Name | Description |
-|------|-------------|
-| public_ips | Aws instance public IP |
-
+Resources are organized by providers, that way you will find folders with the name of the provider
+as they are supported, such as ```aws```, ```gcp```, ```vsphere```, ```do```
