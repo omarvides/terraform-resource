@@ -27,3 +27,9 @@ variable "count" {
   description = "The number of aws instances that will be created"
   default = "1"
 }
+
+variable "region" {
+  type = "string"
+  description = "The region to deploy this resource"
+  default = "us-east-1"
+}
